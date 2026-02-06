@@ -58,6 +58,14 @@ export default function Home() {
           title: '二分法',
           description: '基础概念、模板、经典题目（点击查看详情）',
           hasDetail: true,
+          href: '/algorithm/binary-search',
+        },
+        {
+          id: 'java-syntax',
+          title: 'Java 语法特性',
+          description: '编译器逻辑、return 0.0 解析（点击查看详情）',
+          hasDetail: true,
+          href: '/syntax/java-compiler-logic',
         },
         {
           id: 'algo-2',

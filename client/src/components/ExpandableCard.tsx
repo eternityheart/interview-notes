@@ -7,6 +7,7 @@ interface SubItem {
   title: string;
   description?: string;
   hasDetail?: boolean;
+  href?: string;
 }
 
 interface ExpandableCardProps {
@@ -129,8 +130,8 @@ export default function ExpandableCard({
                     animationFillMode: 'both',
                   }}
                 >
-                  {item.hasDetail && item.id === 'algo-binary-search' ? (
-                    <Link href="/algorithm/binary-search">
+                  {item.hasDetail && item.href ? (
+                    <Link href={item.href}>
                       <div className="group cursor-pointer p-1 -m-1 rounded hover:bg-blue-50 transition-colors">
                         <ItemContent />
                       </div>
