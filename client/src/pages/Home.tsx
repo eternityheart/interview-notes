@@ -54,9 +54,10 @@ export default function Home() {
       iconBgColor: 'bg-purple-500',
       items: [
         {
-          id: 'algo-1',
-          title: '二分查找',
-          description: '基础概念、模板、常见变体、经典题目',
+          id: 'algo-binary-search',
+          title: '二分法',
+          description: '基础概念、模板、经典题目（点击查看详情）',
+          hasDetail: true,
         },
         {
           id: 'algo-2',
@@ -65,43 +66,23 @@ export default function Home() {
         },
         {
           id: 'algo-3',
-          title: '找到两个边界',
-          description: '边界查找、区间问题、双指针',
+          title: '双指针',
+          description: '边界查找、区间问题、滑动窗口',
         },
         {
           id: 'algo-4',
-          title: '旋转数组',
-          description: '旋转数组查找、最小值、排序',
-        },
-        {
-          id: 'algo-5',
-          title: '旋转数组找最小的',
-          description: '进阶问题、重复元素处理',
-        },
-        {
-          id: 'algo-6',
-          title: '两个数组找中位数',
-          description: '分治法、二分查找应用',
-        },
-        {
-          id: 'algo-7',
           title: '回溯算法',
           description: '排列、组合、子集、N皇后',
         },
         {
-          id: 'algo-8',
+          id: 'algo-5',
           title: '动态规划',
           description: '背包问题、最长子序列、状态转移',
         },
         {
-          id: 'algo-9',
+          id: 'algo-6',
           title: '图论算法',
           description: 'BFS、DFS、最短路径、拓扑排序',
-        },
-        {
-          id: 'algo-10',
-          title: '字符串处理',
-          description: 'KMP、正则表达式、编辑距离',
         },
       ],
     },
